@@ -1,3 +1,6 @@
+const id = (new URLSearchParams(window.location.search)).get('id');
+if (id=="cines") getCines();
+
 const getCines = async()=> {
     const data = await fetch('https://webcinestar001.000webhostapp.com/cinestar_sweb/cines');
     if ( data.status == 200 ) {

@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+Options All -Indexes
+RewriteEngine On
+
+RewriteRule ^(\w+)$ index.html?id=$1
+#cines
+#RewriteRule sweh.php7id-$18id6-52
+#RewriteRule sweb.php?id-s1&idd-$28idx-$3
+#peliculas
+#RewriteRule sweb.php7id-518idx-52
